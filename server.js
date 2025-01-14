@@ -9,7 +9,7 @@ var HTTP_PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
 
-res.send("Hello World!<br />");
+res.send("Hello World!<br /><a href='/about'>Go to about</a>");
 
 });
 
