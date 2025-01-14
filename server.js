@@ -18,7 +18,7 @@ res.send("Hello World!<br />");
 
 app.get("/about", (req, res) => {
 
-res.json({course: "WEB322", student: "Mohamed Mohamed", task: "In-class Assignment 1", date: new Date().toLocaleDateString()});
+res.json({course: "WEB322", student: "Mohamed Mohamed", task: "In-class Assignment 1", date: "1-14-2025"});
 
 });
 
